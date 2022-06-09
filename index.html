@@ -1,58 +1,99 @@
-<!DOCTYPE html>
 <html>
 <head>
+	
+ 
     <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
-    <title> Infty's Labs </title>
-
-    <style>
-        html, body {
-            background-color: #333;
-            margin: 0;
-            padding: 0;
-            background: url("https://inftys.github.io/imgs/background.jpg") no-repeat;
-            background-position: 100%;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-
-        .content {
-	    width: 100%;
-	    height: 100%;
-	    position: absolute;
-	    border-radius: 8px;
-	    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-	    overflow: hidden;
-	    z-index: 2;
-	    padding: 50px;
-	    box-sizing: border-box;
-        }
-
-        .content::before {
-	    content: '';
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    right: 0;
-	    bottom: 0;
-            -webkit-filter: blur(6px);
-	    -moz-filter: blur(6px);
-	    -ms-filter: blur(6px);
-	    -o-filter: blur(6px);
-	    filter: blur(6px);
-            z-index: -3;
-	    margin: -30px;
-	    background-image: url('https://inftys.github.io/imgs/background.jpg');
-            background-position: center top;
-            background-size: cover;
-	    background-attachment: fixed; 
-        }
-    </style>
+	<title> Infty's Labs </title>
 </head>
+<body>
+	<div class="container">
+		<div class="content">
+
+	</div>
+</body>
+<style>
+@import "fontawesome-all.min.css";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600";
+@font-face {
+  	font-family: 'Source Sans Pro';
+  	font-style: italic;
+  	font-weight: 300;
+  	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg.woff2) format('woff2');
+  	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, img, input {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-size: 19px;
+	font-family: 'Verdana','Arial';
+	color: #fff;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url('https://inftys.github.io/imgs/background.jpg');
+	background-position: center top;
+	background-size: cover;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+	overflow: hidden;
+	z-index: 2;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.content::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-ms-filter: blur(20px);
+	-o-filter: blur(20px);
+	filter: blur(20px);
+  	z-index: -3;
+	margin: -30px;
+	background-image: url('https://inftys.github.io/imgs/background.jpg');
+  	background-position: center top;
+  	background-size: cover;
+	background-attachment: fixed; 
+}
+
+.content h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content p {
+  	font-family: 'Source Sans Pro';
+  	font-weight: 300;
+  	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg.woff2) format('woff2');
+  	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+</style>
 
 <body>
-    <div class="content">
- 
-    </div>
-</body>
+	<div class="container">
+		<div class="content">
+			<p>IT IS A TEST.</p>
+		</div>
+	</div>
 
+</body>
 </html>
