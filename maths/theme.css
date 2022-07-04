@@ -3,8 +3,7 @@ body {
     color: #333;
     font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
     font-weight: 500;
-    margin-top: 3.5rem;
-    padding: .5em 1.5em;
+    margin-top: 1.3em 1.5em;
 }
 
 a {
@@ -14,15 +13,4 @@ a {
 
 a:hover {
     color: #8442c6; 
-}
-
-.tb {
-    background-color: #fff;
-    box-shadow: 0 0 3px;
-    position: fixed;
-    top: 0;
-    height: 1rem;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
 }
