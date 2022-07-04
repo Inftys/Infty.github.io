@@ -4,6 +4,7 @@ body {
     font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
     font-weight: 500;
     margin-top: 3.5rem;
+    padding: .5em 1.5em;
 }
 
 a {
