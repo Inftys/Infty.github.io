@@ -12,17 +12,16 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #8442c6; 
+blockquote {
+     border-left:#eee solid 5px;
+     padding-left:20px;
 }
 
-.tb {
-    background-color: #fff;
-    box-shadow: 0 0 3px;
-    position: fixed;
-    top: 0;
-    height: 1rem;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
+ul li {
+     line-height: 20px;
+}
+
+code {
+     color:#D34B62;
+     background: #F6F6F6;
 }
