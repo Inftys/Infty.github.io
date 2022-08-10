@@ -1,4 +1,5 @@
-# Inftys.github.io
+# [Inftys.github.io](https://inftys.github.io)
+-----
+我承認，我鴿了
 
-
-这么说吧，我鸽了
+目前正在等新域名
